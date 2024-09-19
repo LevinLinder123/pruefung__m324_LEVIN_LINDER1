@@ -1,1 +1,1 @@
-console.log(chalk.blue('it works'))
+console.log(chalk.blue("it works"));

@@ -4,7 +4,10 @@
   "description": "Pruefung M324",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "lint": "eslint .",
+  "format": "prettier --write .",
+  "test": "mocha",
+  "start": "npm run lint && npm run format && npm run test"
   },
   "keywords": [],
   "author": "",

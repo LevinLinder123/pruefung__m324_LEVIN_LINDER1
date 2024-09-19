@@ -1,13 +1,10 @@
-console.log(chalk.blue('it works'));
-var myUnsignedVariable = 5;
-
-function checkEquality(a, b) {
-  if (a === b) {
-    console.log('Values are equal');
-  } else {
-    console.log('Values are not equal');
+// index.js
+function calculate(a, b) {
+    return {
+      addition: a + b + 1,
+      subtraction: a - b + 1
+    };
   }
-}
-
-myUnsignedVariable++;
-checkEquality(5, myUnsignedVariable);
+  
+export default calculate; // Standard-Export
+  

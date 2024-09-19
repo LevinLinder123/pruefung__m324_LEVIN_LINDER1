@@ -1,12 +1,13 @@
 {
   "name": "pruefung__m324_levin_linder1",
   "version": "1.0.0",
+  "type": "module",
   "description": "Pruefung M324",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "format": "prettier --write .",
-    "test": "mocha",
+    "test": "mocha index.test.js",
     "start": "npm run lint && npm run format && npm run test"
   },
   "keywords": [],
@@ -16,6 +17,7 @@
     "chalk": "^5.3.0"
   },
   "devDependencies": {
+    "chai": "^5.1.1",
     "eslint": "^9.10.0",
     "mocha": "^10.7.3",
     "prettier": "^3.3.3"
